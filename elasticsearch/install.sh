@@ -11,5 +11,5 @@ ln -s /usr/share/elasticsearch /usr/share/java/elasticsearch
 
 /usr/share/elasticsearch/bin/plugin -i io.fabric8/elasticsearch-cloud-kubernetes/1.3.0
 
-mkdir /elasticsearch
-chmod -R og+w /usr/share/java/elasticsearch ${HOME} /elasticsearch
+mkdir -P /elasticsearch/persistent
+chmod -R og+w /usr/share/java/elasticsearch ${HOME} /elasticsearch   

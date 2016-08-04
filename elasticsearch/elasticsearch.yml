@@ -8,3 +8,5 @@ path:
   data: /elasticsearch/data/placeholder/data
   logs: /elasticsearch/placeholder/logs
   work: /elasticsearch/placeholder/work
+
+searchguard.check_for_root: false
